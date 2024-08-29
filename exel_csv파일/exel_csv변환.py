@@ -2,10 +2,10 @@ import pandas as pd
 import os
 
 # 엑셀 파일 경로 설정 (경로 앞에 r을 붙여 raw string으로 사용)
-excel_file_path = r'C:/Users/samsung/OneDrive/DT교육/HE0IN_Process_status_project/project_excel_fie/5.xlsx'
+excel_file_path = r'C:\Users\duddl\OneDrive\DT교육\HE0IN_Process_status_project\exel_csv파일\project_excel_flie\1_호선별_개정도_현황_List(3개호선).xlsx'
 
 # 출력 폴더 경로 설정
-output_folder = r'C:/Users/samsung/OneDrive/DT교육/HE0IN_Process_status_project/output5/'
+output_folder = r'C:\Users\duddl\OneDrive\DT교육\HE0IN_Process_status_project\exel_csv파일\project_csv_file\호선별_개정도_현황_List(3개호선)/'
 
 # 출력 폴더가 없으면 생성
 os.makedirs(output_folder, exist_ok=True)
